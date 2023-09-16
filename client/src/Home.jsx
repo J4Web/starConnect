@@ -13,6 +13,9 @@ function Home() {
    const [address,setAddres]=useState('');
    let {creator}=useContext(StoreCreatorDetails);
    console.log("creator bhai ||",creator)
+   useEffect(()=>{
+    window.localStorage.clear();
+   },[])
 
   const isWalletSet=wallet.length>0 ? 1:0;
   useEffect(function (){

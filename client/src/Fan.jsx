@@ -19,7 +19,7 @@ function Fan() {
     if (typeof window.ethereum !== 'undefined') {
       console.log(window.ethereum)
       const provider = new ethers.BrowserProvider(window.ethereum)
-      const contract = new ethers.Contract(NFTPurchaseManager, NFTPurchaseManager.abi, provider)
+      const contract = new ethers.Contract(NFTPurchaseManagerAddress, NFTPurchaseManager.abi, provider)
       try {
         const data = await contract.greet()
         console.log('data: ', data)

@@ -19,9 +19,6 @@ function FanDashboard() {
   }
   window.localStorage.setItem('option',option);
 
-//dekh bhai details of the person jo hai id ka creator_id
-//phir request bhejna vala page ki bhai ye desc hai bas 
-//phir nhi aai hai to ye saare requests kia the maine uske bagal me refund me input box ki bhai vapas de
   return (
 <StoreCreatorDetails.Provider value={
   create
