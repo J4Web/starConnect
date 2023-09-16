@@ -1,0 +1,128 @@
+
+*{
+  box-sizing: border-box;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+    background: url('https://i.imgur.com/F5B3zmm.jpg') center/cover;
+}
+
+.splash {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.intro, .sub{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+     background: rgba(0, 0, 0, 0.02 );
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    line-height: 3;
+}
+
+
+
+.CTA {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Courier New', Courier, monospace;
+  height: 2.8rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 1.2rem;
+  text-transform: none;
+}
+
+.CTA:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.CTA:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.CTA:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.CTA{
+    width: 120px;
+    margin: 1.5%;
+}
+.splash h1 {
+    color: #ffffff;
+    
+}
+
+.splash p {
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.connect-btn{
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 640px) {
+    /* Adjust layout for smaller screens */
+    .btns {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: -100px;
+      justify-content: center;
+      margin: 20px;
+    }
+    .btns > .CTA{
+        width: 90px;
+        height: 40px;
+    }
+    .connect-btn{
+      width: 90px;
+    }
+    .intro, .sub{
+      line-height: 1.5;
+    }
+  }
+
+  /* Link{
+    text-decoration: none;
+    color: #fff;
+  } */
