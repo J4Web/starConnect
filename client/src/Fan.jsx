@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { ethers } from 'ethers'
 import NFTPurchaseManager from '../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
-
 import FanDashboard from './Components/FanDashboard';
 
 // Update with the contract address logged out to the CLI when it was deployed 
