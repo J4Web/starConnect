@@ -1,8 +1,9 @@
 import React,{useContext, useState} from 'react'
 import { ethers } from 'ethers'
 import './profile.css'
-import StoreCreatorDetails from '../../helper.js/StoreCreatorDetails'
-import NFTPurchaseManager from '../../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
+import StoreCreatorDetails from "../helper.js/StoreCreatorDetails";
+import truncateString from "../helper.js/truncate.";
+import NFTPurchaseManager from '../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
 import Mint from './Mint'
 
 const NFTPurchaseManagerAddress = "0x215a9F2f6126f04725ABd3b78b1e94b22d003006";

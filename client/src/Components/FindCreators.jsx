@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import truncateString from '../../helper.js/truncate.';
-
+import StoreCreatorDetails from "../helper.js/StoreCreatorDetails";
+import truncateString from "../helper.js/truncate.";
 
 function FindCreators() {
   return (

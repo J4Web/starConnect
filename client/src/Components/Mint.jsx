@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './mint.css'
 import { ethers } from 'ethers'
-import NFTPurchaseManager from '../../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
+import NFTPurchaseManager from '../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
 const NFTPurchaseManagerAddress = "0x215a9F2f6126f04725ABd3b78b1e94b22d003006"
 function Mint() {
     const [requestID,setRequestID]=useState('');

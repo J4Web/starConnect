@@ -1,8 +1,8 @@
 import React,{useContext} from "react";
 import "./CreatorDashboard.css";
 import { Link,useParams,useLocation} from "react-router-dom";
-import StoreCreatorDetails from "../../helper.js/StoreCreatorDetails";
-import truncateString from "../../helper.js/truncate.";
+import StoreCreatorDetails from "../helper.js/StoreCreatorDetails";
+import truncateString from "../helper.js/truncate.";
 import './FanDasboard.css'
 
 
