@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // import './requestForm.css';
-import NFTPurchaseManager from '/home/jg/Desktop/Dappathon-StarConnect/dapp/artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
+import NFTPurchaseManager from '../../artifacts/contracts/NFTPurchaseManager.sol/NFTPurchaseManager.json'
 const NFTPurchaseManagerAddress = "0x215a9F2f6126f04725ABd3b78b1e94b22d003006";
 console.log("NFTPurchaseManagerAddress || ",NFTPurchaseManagerAddress)
 import { ethers } from 'ethers'
