@@ -31,7 +31,7 @@ function Profile({type}) {
         console.log("signer ",signer);
         const contract = new ethers.Contract(NFTPurchaseManagerAddress, NFTPurchaseManager.abi, signer);
         console.log("here is the contract ",contract)
-        const gweiVal=parseInt(price)*1e18;
+        const gweiVal=parseInt(price);
         const transaction = await contract.addContentCreator(name,gweiVal);
         await transaction.wait();
         const data=await contract.getCreator();
