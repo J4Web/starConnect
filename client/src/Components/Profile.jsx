@@ -37,6 +37,7 @@ function Profile({type}) {
         const data=await contract.getCreator();
         console.log("DATA",data)
          const creatorid=parseInt(data.toString()[0])-1;
+          console.log("its working , prev |  new" ,data.toString()[0] ,"|", creatorid);
 
 
           alert(`${creatorid} - This is your Creator ID,never forget this!! \n You can Share with family, friends and ofc your fans!!`)
