@@ -87,11 +87,10 @@ For visualization through a dashboard one may directly run the app locally and t
 
 # Our Team Details 
 
-## Prakhar    [Github](https://github.com/j4web) | [twitter](https://twitter.com/0xj4web) | [Gmail](j4web.24@gmail.com)
+## Prakhar  - [Github](https://github.com/j4web) | [twitter](https://twitter.com/0xj4web) | [Gmail](j4web.24@gmail.com)
 
 
-## Pietro | [Github]([https://github.com/ScipioneParmigi]) | [twitter]([=https://twitter.com/pietro_zanotta]) | [Gmail](pietro.zanotta.02@gmail.com)
-
+## Pietro - [Github](https://github.com/ScipioneParmigi) | [twitter](https://twitter.com/pietro_zanotta) | [Gmail](pietro.zanotta.02@gmail.com)
 
 
 
