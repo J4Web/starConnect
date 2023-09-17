@@ -38,7 +38,7 @@ function FanDashboard() {
         </div>
           <div class="menu_item ">
             <i class="bx bx-message-rounded-dots"></i>
-            <Link to="/fan"><p>All Requests</p></Link>
+            <p>All Requests</p>
             <i class="fa-regular fa-circle-2 "></i>
         </div>
           <div class="menu_item ">
