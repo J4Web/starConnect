@@ -36,8 +36,10 @@ function Profile({type}) {
         await transaction.wait();
         const data=await contract.getCreator();
         console.log("DATA",data)
+         const creatorid=parseInt(data.toString()[0])-1;
 
-          alert(`${data.toString()[0] } - This is your Creator ID,never forget this!! \n You can Share with family, friends and ofc your fans!!`)
+
+          alert(`${creatorid} - This is your Creator ID,never forget this!! \n You can Share with family, friends and ofc your fans!!`)
           console.log('------------------------')
         }
       }
