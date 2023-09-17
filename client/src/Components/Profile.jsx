@@ -35,12 +35,11 @@ function Profile({type}) {
         const transaction = await contract.addContentCreator(name,gweiVal);
         await transaction.wait();
         const data=await contract.getCreator();
-        console.log("DATA",data)
-         const creatorid=parseInt(data.toString()[0])-1;
-          console.log("its working , prev |  new" ,data.toString()[0] ,"|", creatorid);
+        console.log("THIS IS THE DATA || ",data)
+         const creatorid=data.toString();
 
 
-          alert(`${creatorid} - This is your Creator ID,never forget this!! \n You can Share with family, friends and ofc your fans!!`)
+          alert(`${creatorid.substring(0,creatorid.length)} - This is your Creator ID,never forget this!! \n You can Share with family, friends and ofc your fans!!`)
           console.log('------------------------')
         }
       }
