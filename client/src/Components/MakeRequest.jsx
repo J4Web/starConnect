@@ -27,10 +27,11 @@ function MakeRequest() {
         const getFanReq=await contract.getFanLatestReq();
         console.log("getFanReq || ",getFanReq)
         const data=transaction;
+        const fanReqId=getFanReq.toString();
 
 
         console.log("DATA",data)
-        alert(`Congrats, Your NFT request is sent!! \n Your RequestID is ${getFanReq.toString()[0]} please remember it!`)
+        alert(`Congrats, Your NFT request is sent!! \n Your RequestID is ${fanReqId.substring(0, fanReqId.length)} please remember it!`)
         }
     }
 
