@@ -4,7 +4,7 @@
 # Revolutionizing personalized content creation and combating deep fake proliferation with NFTs
 # Introduction
 ## StarConnect 
- a game-changing solution for combating the deep fake dilemma in the era of technology-driven illusions. By ingeniously melding blockchain and NFT innovation, StarConnect pioneers a transformative platform that bridges creators and fans via Non-Fungible Tokens (NFTs). This dynamic concept not only empowers content creators to monetize their talents but also fortifies the integrity of digital content.
+A game-changing solution for combating the deep fake dilemma in the era of technology-driven illusions. By ingeniously melding blockchain and NFT innovation, StarConnect pioneers a transformative platform that bridges creators and fans via Non-Fungible Tokens (NFTs). This dynamic concept not only empowers content creators to monetize their talents but also fortifies the integrity of digital content.
 
 Deep fake tech, with its capacity to craft convincingly counterfeit audio and video, jeopardizes trust and authenticity online. StarConnect proactively tackles this threat by enabling creators to verify their content through blockchain technology. This assures fans that they receive genuine, personalized videos directly from their cherished creators.
 
@@ -90,7 +90,7 @@ For visualization through a dashboard one may directly run the app locally and t
 ## Prakhar  - [Github](https://github.com/j4web) | [twitter](https://twitter.com/0xj4web) | [Gmail](j4web.24@gmail.com)
 
 
-## Pietro - [Github](https://github.com/ScipioneParmigi) | [twitter](https://twitter.com/pietro_zanotta) | [Gmail](pietro.zanotta.02@gmail.com)
+## Pietro - [Github](https://github.com/ScipioneParmigiano) | [twitter](https://twitter.com/pietro_zanotta) | [Gmail](pietro.zanotta.02@gmail.com)
 
 
 
